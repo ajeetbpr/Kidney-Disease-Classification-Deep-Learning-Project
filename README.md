@@ -11,3 +11,6 @@ Kidney-Disease-Classification-Deep-Learning-Project-MLflow-DVC
 ```
 3. pip install -r requirements.txt 
 ```
+
+## Run the project:
+
