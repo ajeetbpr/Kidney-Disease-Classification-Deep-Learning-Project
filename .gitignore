@@ -120,7 +120,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-kidney/
+artifacts/*
+kidney/*
 .env
 .venv
 myenv/
