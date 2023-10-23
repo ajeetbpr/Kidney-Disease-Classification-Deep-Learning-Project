@@ -27,3 +27,21 @@ Kidney-Disease-Classification-Deep-Learning-Project-MLflow-DVC
 
 ## Run the project:
 
+## DagsHub
+MLFLOW_TRACKING_URI=https://dagshub.com/ajeetbpr/Kidney-Disease-Classification-Deep-Learning-Project.mlflow \
+MLFLOW_TRACKING_USERNAME=ajeetbpr \
+MLFLOW_TRACKING_PASSWORD=2ed593b21375fd3e32e3d1129bddbbd26983efa1 \
+python script.py
+
+### Export following environment variables from terminal
+export MLFLOW_TRACKING_URI=https://dagshub.com/ajeetbpr/Kidney-Disease-Classification-Deep-Learning-Project.mlflow
+
+export MLFLOW_TRACKING_USERNAME=ajeetbpr
+
+export MLFLOW_TRACKING_PASSWORD=2ed593b21375fd3e32e3d1129bddbbd26983efa1
+
+
+## DVC Commands
+1. dvc init
+2. dvc repro (it will run pipeline one by one)
+
